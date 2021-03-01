@@ -24,6 +24,24 @@
 
 ① git pull
 
+###  设置user.name和user.email
+
+①设置全局的name和email：
+
+ git config --global user.name dandanpili
+
+ git config --global user.email shaoruilin151@qq.com
+
+②给某个仓库设置name和email
+
+ git config user.name dandanpili
+
+ git config user.email shaoruilin151@qq.com
+
+###  查看配置
+
+ git config --list
+
 ### 换行符相关问题
 
 ① git config --global core.autocrlf true    Git会在你提交时自动把行结束符CRLF转换成LF，在签出代码时把LF转换成CRLF。所以在Windows系统上，你可以使用这个命令，这样在签出代码时候，LF会被转换成CRLF。
