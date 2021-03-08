@@ -18,7 +18,7 @@
 
 2、在dubbo-admin目录下输入cmd，唤起命令行
 
-3、输入mvn clean package将dubbo-admin打包
+3、输入mvn clean package将dubbo-admin打包 （mvn package好像也可以）
 
 4、完成后可以在dubbo-admin/target目录下看到dubbo-admin-0.0.1-SNAPSHOT.jar文件
 
